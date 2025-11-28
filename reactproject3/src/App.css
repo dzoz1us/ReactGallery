@@ -1,0 +1,166 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+}
+
+.gallery-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.nav-button {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0; /* Чтобы кнопки не сжимались */
+}
+
+    .nav-button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+.image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px; /* Фиксированная ширина */
+    height: 500px; /* Фиксированная высота */
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /* Обрезаем всё что выходит за границы */
+}
+
+.main-image {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 100%; /* Занимает всю высоту контейнера */
+    object-fit: contain; /* Сохраняет пропорции, помещая всё изображение в контейнер */
+    display: block;
+}
+
+.image-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover; /* Для миниатюр используем cover чтобы заполнить область */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 3px solid transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .thumbnail:hover {
+        transform: scale(1.15);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .thumbnail.active {
+        border: 3px solid #667eea;
+        transform: scale(1.15);
+        box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+    }
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 900px) {
+    .image-wrapper {
+        width: 100%;
+        height: 400px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .main-image-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-button {
+        padding: 15px 20px;
+        font-size: 24px;
+    }
+
+    .image-wrapper {
+        height: 350px;
+    }
+
+    .thumbnail {
+        width: 70px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .thumbnail {
+        width: 60px;
+        height: 48px;
+    }
+
+    .image-wrapper {
+        height: 250px;
+    }
+}
