@@ -48,6 +48,6 @@ React-приложение для просмотра и навигации по 
 - Плавные анимации при наведении
 
 
-![screen1] screen1.png
-![screen2] screen2.png
-![screen3] screen3.png
+Приложение <img width="2880" height="1818" alt="Image" src="https://github.com/user-attachments/assets/cd685a8d-b1b7-4bb9-8ced-1d00e06cd5e2" />
+<img width="2880" height="1818" alt="Image" src="https://github.com/user-attachments/assets/6491a148-de44-4532-ad21-992874ce66d7" />
+<img width="2874" height="1822" alt="Image" src="https://github.com/user-attachments/assets/af6f5e4c-938d-4832-a135-f962b5cfccd6" />
