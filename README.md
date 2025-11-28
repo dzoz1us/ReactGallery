@@ -41,11 +41,13 @@ React-приложение для просмотра и навигации по 
 
 - Сохранение пропорций изображений без искажений
 
-https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen1.png
-https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen2.png
-https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen3.png
 - Стабильный интерфейс без "прыгающих" элементов
 
 7. Интерактивные элементы
 
 - Плавные анимации при наведении
+
+
+![screen1] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen1.png
+![screen2] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen2.png
+![screen3] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen3.png
