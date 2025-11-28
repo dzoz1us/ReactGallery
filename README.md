@@ -48,6 +48,6 @@ React-приложение для просмотра и навигации по 
 - Плавные анимации при наведении
 
 
-![screen1] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen1.png
-![screen2] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen2.png
-![screen3] https://github.com/dzoz1us/ReactGallery/blob/main/reactproject3/src/assets/screenshots/screen3.png
+![screen1] https://github.com/dzoz1us/ReactGallery/blob/main/screen1.png
+![screen2] https://github.com/dzoz1us/ReactGallery/blob/main/screen2.png
+![screen3] https://github.com/dzoz1us/ReactGallery/blob/main/screen3.png
